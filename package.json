@@ -1,0 +1,37 @@
+{
+  "name": "storybook-styled",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silvasmvs/storybook-styled.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/silvasmvs/storybook-styled/issues"
+  },
+  "homepage": "https://github.com/silvasmvs/storybook-styled#readme",
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@storybook/addon-actions": "^6.5.7",
+    "@storybook/addon-essentials": "^6.5.7",
+    "@storybook/addon-interactions": "^6.5.7",
+    "@storybook/addon-links": "^6.5.7",
+    "@storybook/builder-webpack4": "^6.5.7",
+    "@storybook/manager-webpack4": "^6.5.7",
+    "@storybook/react": "^6.5.7",
+    "@storybook/testing-library": "0.0.11",
+    "babel-loader": "^8.2.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  },
+  "dependencies": {}
+}
